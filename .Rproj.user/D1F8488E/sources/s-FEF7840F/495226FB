@@ -1,0 +1,26 @@
+{
+    "id": "495226FB",
+    "path": "/Volumes/Data/MDS/Repos/viz/IA2/data/vgsales.csv",
+    "project_path": "data/vgsales.csv",
+    "type": "text",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1646963050822.0,
+    "source_on_save": false,
+    "relative_order": 2,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "0,39",
+        "scrollLine": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1646194031,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1646194031,
+    "read_only": false,
+    "read_only_alternatives": []
+}
