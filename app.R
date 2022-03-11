@@ -26,11 +26,11 @@ app$callback(
     output('plot-area', 'figure'),
     list(input('sport-select', 'value')),
     function(topN) {
-        df_filtered <- df |> 
-            select(Publisher) |> 
-            group_by(Publisher) |>
-            summarise(count = n()) |>
-            arrange(desc(count)) |>
+        df_filtered <- df %>%
+            select(Publisher) %>%
+            group_by(Publisher) %>%
+            summarise(count = n()) %>%
+            arrange(desc(count)) %>%
             head(topN)
         
         p <- ggplot(df_filtered, aes(y = reorder(Publisher, count), x = count))+ 
@@ -44,6 +44,6 @@ app$callback(
     }
 )
 
-app$run_server(debug = T)
+app$run_server()
 
 app$run_server(host = '0.0.0.0')
